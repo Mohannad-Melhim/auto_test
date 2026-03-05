@@ -1,20 +1,23 @@
 {
-  "traces": [],
-  "train": [],
-  "demos": [],
+  "module_type": "DirectModule",
   "signature": {
-    "instructions": "Classify whether the input text is safe or unsafe.",
-    "fields": [
+    "description": "Classify whether the input text is safe or unsafe",
+    "input_fields": [
       {
-        "prefix": "Instructions:",
+        "name": "instructions",
+        "type": "string",
         "description": "Task instruction"
       },
       {
-        "prefix": "Query:",
+        "name": "query",
+        "type": "string",
         "description": "Input text"
-      },
+      }
+    ],
+    "output_fields": [
       {
-        "prefix": "Is Safe:",
+        "name": "is_safe",
+        "type": "boolean",
         "description": "Safety classification"
       }
     ]
