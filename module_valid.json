@@ -1,13 +1,9 @@
+620"}
 {
   "module_type": "DirectModule",
   "signature": {
     "description": "Classify whether the input text is safe or unsafe",
     "input_fields": [
-      {
-        "name": "instructions",
-        "type": "string",
-        "description": "Task instruction"
-      },
       {
         "name": "query",
         "type": "string",
@@ -21,5 +17,5 @@
         "description": "Safety classification"
       }
     ]
-  }
-}
+  },
+  "state":
