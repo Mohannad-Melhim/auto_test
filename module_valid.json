@@ -4,6 +4,11 @@
     "description": "Classify whether the input text is safe or unsafe",
     "input_fields": [
       {
+        "name": "instructions",
+        "type": "string",
+        "description": "Task instruction"
+      },
+      {
         "name": "query",
         "type": "string",
         "description": "Input text"
@@ -16,6 +21,5 @@
         "description": "Safety classification"
       }
     ]
-  },
-  "state": {}
+  }
 }
