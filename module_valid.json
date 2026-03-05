@@ -1,0 +1,22 @@
+{
+  "traces": [],
+  "train": [],
+  "demos": [],
+  "signature": {
+    "instructions": "Classify whether the input text is safe or unsafe.",
+    "fields": [
+      {
+        "prefix": "Instructions:",
+        "description": "Task instruction"
+      },
+      {
+        "prefix": "Query:",
+        "description": "Input text"
+      },
+      {
+        "prefix": "Is Safe:",
+        "description": "Safety classification"
+      }
+    ]
+  }
+}
